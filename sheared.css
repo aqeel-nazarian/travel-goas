@@ -9,6 +9,13 @@ ul {
    margin: 0;
 }
 
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px 60px;
+}
+
 ul a {
    text-decoration: none;
 }
@@ -21,4 +28,12 @@ ul a {
    text-transform: uppercase;
    text-shadow: 1px 1px 2px rgb(0, 0, 0);
    text-decoration: none;
+}
+
+header ul {
+   display: flex;
+}
+
+header li {
+   margin-left: 20px;
 }
