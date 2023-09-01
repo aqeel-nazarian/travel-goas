@@ -13,4 +13,37 @@
    text-align: center;
    padding: 50px 0;
    margin: 0 auto;
+   position: relative;
+   top: 250px;
+}
+
+#hero-content h1 {
+   color: white;
+   font-size: 32px;
+   font-family: 'raleway', sans-serif;
+   text-transform: uppercase;
+   margin: 0;
+}
+
+#hero-content p {
+   color: white;
+   text-transform: uppercase;
+   font-family: 'raleway', sans-serif;
+   font-size: 24px;
+   font-weight: 300;
+   margin-bottom: 30px;
+}
+
+#hero-content a {
+   color: black;
+   text-decoration: none;
+   background-color: rgb(255, 251, 0);
+   padding: 12px 30px;
+   font-weight: 700;
+   border-radius: 8px;
+   box-shadow: 2px 4px 8px rgb(69, 67, 67);
+}
+
+#hero-content a:hover {
+   background-color: rgb(255, 238, 0);
 }
